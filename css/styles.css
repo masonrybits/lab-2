@@ -7,13 +7,17 @@ h1{
   font-size: 32px;
   color: green;
   background-color: orange;
-  padding: 36px;
   font-weight: bold;
+  padding: 1em;
+  border: 10px solid grey;
+  margin: 1em;
+
 }
 
 h2{
-  color: orange;
-  padding: 0px;
+  text-align: center;
+  color: black;
+  padding: 10px;
   font-size: 20px;
   font-weight: bold;
 
@@ -26,13 +30,31 @@ footer{
 li{
   font-size: 18px;
   color: black;
+  padding: 10px;
+
 }
 
 article{
   padding: 20px;
 }
 
+div{
+  padding: 20px;
+  display: inline-block;
+  height: 10em;
+  width: 44%;
+  overflow: scroll;
+  border: 10px solid orange;
+
+}
+
 ul li{
   list-style-type: circle;
+  list-style-position: inside;
+  
+}
+
+ol li{
+  list-style-type: lower-roman;
   list-style-position: inside;
 }
