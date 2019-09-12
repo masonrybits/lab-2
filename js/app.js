@@ -1,10 +1,11 @@
 'use strict';
-
+function getName () {
 var name = prompt('What is your name?');
 
 alert('Hello ' + name + '! ' + 'This is Ting. Please guess y/n or yes/no to the following 5 questions about me.');
+}
 
-
+function askCat() {
 var cat = prompt('Do I have cats?');
 var counter = 0;
 
@@ -20,7 +21,9 @@ if (cat.toLowerCase() === 'yes' || cat.toLowerCase() === 'y') {
   alert('Please input y/n or yes/no');
 }
 
+}
 
+function askDog(){
 var dog = prompt('Do I have dogs?');
 
 if (dog.toLowerCase() === 'yes' || dog.toLowerCase() === 'y') {
@@ -34,7 +37,9 @@ if (dog.toLowerCase() === 'yes' || dog.toLowerCase() === 'y') {
   console.log('Please input y/n or yes/no');
   alert('Please input y/n or yes/no');
 }
+}
 
+function askIceam() {
 var icecream = prompt('Do I like ice cream?');
 
 if (icecream.toLowerCase() === 'yes' || icecream.toLowerCase() === 'y') {
@@ -48,7 +53,10 @@ if (icecream.toLowerCase() === 'yes' || icecream.toLowerCase() === 'y') {
   console.log('Please input y/n or yes/no');
   alert('Please input y/n or yes/no');
 }
+}
 
+
+function askSurf(){
 var surf = prompt('Do I surf?');
 
 if (surf.toLowerCase() === 'yes' || surf.toLowerCase() === 'y') {
@@ -62,7 +70,9 @@ if (surf.toLowerCase() === 'yes' || surf.toLowerCase() === 'y') {
   console.log('Please input y/n or yes/no');
   alert('Please input y/n or yes/no');
 }
+}
 
+function askTea(){
 var tea = prompt('Do I drink tea?');
 
 if (tea.toLowerCase() === 'yes' || tea.toLowerCase() === 'y') {
@@ -76,7 +86,9 @@ if (tea.toLowerCase() === 'yes' || tea.toLowerCase() === 'y') {
   console.log('Please input y/n or yes/no');
   alert('Please input y/n or yes/no');
 }
+}
 
+function askAge() {
 var age = parseInt(prompt('Guess my age!'));
 
 for (var i = 1; i < 4; i++) {
@@ -98,7 +110,10 @@ for (var i = 1; i < 4; i++) {
 }
 
 alert('The correct answer is 30!');
+}
 
+
+function askFlavor(){
 var flavor = prompt('Guess my ice cream flavor.').toLowerCase();
 var myFlavor = ['strawberry', 'chocolate', 'vanilla', 'coffee'];
 
@@ -114,7 +129,20 @@ for (var i = 0; i < 5; i++) {
     console.log('Again!');
   }
 }
-
+}
 alert('The possible correct answers are: strawberry, chocolate, vanilla and coffee.');
 
-alert('You got ' + counter + ' out of the 7 questions correct');
+
+
+//alert('You got ' + counter + ' out of the 7 questions correct');
+
+
+
+ getName();
+ askCat();
+ askDog();
+ askIceam();
+ askSurf();
+ askTea();
+ askAge();
+ askFlavor();
