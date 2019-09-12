@@ -117,4 +117,4 @@ for (var i = 0; i < 5; i++) {
 
 alert('The possible correct answers are: strawberry, chocolate, vanilla and coffee.');
 
-alert ('You got ' + counter + ' out of the 7 questions correct');
+alert('You got ' + counter + ' out of the 7 questions correct');
